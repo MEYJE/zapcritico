@@ -15,8 +15,8 @@ const Index = () => {
       .bg-grid-pattern {
         background-size: 40px 40px;
         background-image: 
-          linear-gradient(to right, rgba(0, 0, 0, 0.05) 1px, transparent 1px),
-          linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+          linear-gradient(to right, rgba(54, 161, 71, 0.05) 1px, transparent 1px),
+          linear-gradient(to bottom, rgba(54, 161, 71, 0.05) 1px, transparent 1px);
       }
     `;
     document.head.appendChild(style);

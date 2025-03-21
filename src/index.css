@@ -16,8 +16,9 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 210 100% 50%;
-    --primary-foreground: 210 40% 98%;
+    /* IFB Green */
+    --primary: 135 50% 43%;
+    --primary-foreground: 0 0% 100%;
 
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
@@ -25,15 +26,16 @@
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 135 50% 95%;
+    --accent-foreground: 135 50% 35%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* IFB Red */
+    --destructive: 358 69% 48%;
+    --destructive-foreground: 0 0% 100%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 135 50% 43%;
 
     --radius: 0.75rem;
 
@@ -57,8 +59,8 @@
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 135 50% 43%;
+    --primary-foreground: 0 0% 100%;
 
     --secondary: 217.2 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;
@@ -69,7 +71,7 @@
     --accent: 217.2 32.6% 17.5%;
     --accent-foreground: 210 40% 98%;
 
-    --destructive: 0 62.8% 30.6%;
+    --destructive: 358 69% 48%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 217.2 32.6% 17.5%;
@@ -148,5 +150,96 @@
   
   .animate-delay-500 {
     animation-delay: 500ms;
+  }
+
+  .ifb-gradient-bg {
+    @apply bg-gradient-to-br from-primary/80 to-primary-foreground via-primary/40;
+  }
+
+  .ifb-gradient-text {
+    @apply bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent;
+  }
+
+  .ifb-gradient-border {
+    @apply border border-primary/30 hover:border-primary/50 transition-colors;
+  }
+
+  .ifb-logo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 4px;
+    width: 48px;
+    height: 48px;
+  }
+
+  .ifb-logo-grid span {
+    @apply rounded-sm;
+  }
+
+  .ifb-logo-grid span:nth-child(1) {
+    @apply bg-destructive;
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .ifb-logo-grid span:nth-child(2) {
+    @apply bg-primary;
+    grid-column: 2;
+    grid-row: 1;
+  }
+  
+  .ifb-logo-grid span:nth-child(3) {
+    @apply bg-primary;
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .ifb-logo-grid span:nth-child(4) {
+    @apply bg-primary;
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .ifb-logo-grid span:nth-child(5) {
+    @apply bg-primary;
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .ifb-logo-grid span:nth-child(6) {
+    @apply bg-primary;
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+  .ifb-logo-grid span:nth-child(7) {
+    @apply bg-primary;
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  .ifb-logo-grid span:nth-child(8) {
+    @apply bg-primary;
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  .ifb-logo-grid span:nth-child(9) {
+    @apply bg-primary;
+    grid-column: 3;
+    grid-row: 3;
+  }
+
+  .ifb-logo-grid span:nth-child(10) {
+    @apply bg-primary;
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  .ifb-logo-grid span:nth-child(11) {
+    @apply bg-primary;
+    grid-column: 2;
+    grid-row: 4;
   }
 }

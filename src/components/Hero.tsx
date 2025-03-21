@@ -1,21 +1,28 @@
 
 import React from 'react';
+import { Badge } from '@/components/ui/badge';
 
 const Hero = () => {
   return (
     <section className="pt-28 pb-16 md:pt-36 md:pb-24 overflow-hidden">
       <div className="container-custom relative">
         <div className="absolute top-20 -right-40 w-96 h-96 bg-primary/10 rounded-full blur-3xl opacity-70 animate-pulse-soft"></div>
-        <div className="absolute -bottom-20 -left-40 w-96 h-96 bg-blue-200/20 rounded-full blur-3xl opacity-70"></div>
+        <div className="absolute -bottom-20 -left-40 w-96 h-96 bg-destructive/10 rounded-full blur-3xl opacity-70"></div>
         
         <div className="max-w-3xl mx-auto text-center relative">
-          <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium mb-6 opacity-0 animate-fade-in">
-            Educação para a Era Digital
-          </span>
+          <div className="inline-flex items-center justify-center mb-6 opacity-0 animate-fade-in">
+            <Badge variant="outline" className="px-3 py-1 bg-primary/10 text-primary border-primary/20 text-sm font-medium">
+              Educação para a Era Digital
+            </Badge>
+          </div>
           
-          <h1 className="heading-xl mb-6 opacity-0 animate-fade-in animate-delay-100">
-            Chatbot Educacional para Pensamento Crítico na Cibercultura
+          <h1 className="heading-xl mb-4 opacity-0 animate-fade-in animate-delay-100">
+            <span className="ifb-gradient-text">Zap Crítico</span>
           </h1>
+          
+          <h2 className="text-2xl md:text-3xl font-semibold mb-6 opacity-0 animate-fade-in animate-delay-100">
+            Chatbot Educacional para Pensamento Crítico na Cibercultura
+          </h2>
           
           <p className="text-lg md:text-xl text-muted-foreground mb-8 opacity-0 animate-fade-in animate-delay-200">
             Um assistente inteligente no WhatsApp que ajuda estudantes da Educação Profissional e Tecnológica 
@@ -34,53 +41,11 @@ const Hero = () => {
                 width="24" 
                 height="24" 
                 viewBox="0 0 24 24" 
-                fill="none" 
+                fill="currentColor" 
                 xmlns="http://www.w3.org/2000/svg"
                 className="w-5 h-5"
               >
-                <path 
-                  d="M17.6 6.31999C16.8 5.49999 15.8 4.83999 14.7 4.39999C13.6 3.94999 12.3 3.69999 11 3.69999C9.7 3.69999 8.39999 3.94999 7.29999 4.39999C6.19999 4.83999 5.19999 5.49999 4.39999 6.31999C3.59999 7.13999 2.99999 8.09999 2.59999 9.19999C2.19999 10.3 1.89999 11.6 1.89999 12.9C1.89999 14.2 2.09999 15.5 2.59999 16.6C3.09999 17.7 3.69999 18.7 4.49999 19.5L4.59999 19.6C4.69999 19.7 4.79999 19.8 4.89999 19.9L5.89999 20.9C6.29999 21.3 6.89999 21.6 7.49999 21.6H8.99999C9.59999 21.6 10.1 21.3 10.6 20.9L11.6 19.9C11.7 19.8 11.8 19.7 11.9 19.6L12 19.5C12.7 18.7 13.4 17.7 13.9 16.6C14.4 15.5 14.6 14.3 14.6 12.9C14.6 11.5 14.4 10.3 13.9 9.19999C13.4 8.09999 12.8 7.09999 12 6.29999" 
-                  stroke="currentColor" 
-                  strokeWidth="1.5" 
-                  strokeLinecap="round" 
-                  strokeLinejoin="round"
-                />
-                <path 
-                  d="M12 6.30005C11.3 5.60005 10.3 5.00005 9.3 4.60005C8.2 4.20005 7.1 4.00005 5.9 4.00005C4.8 4.00005 3.7 4.20005 2.6 4.60005C1.6 5.00005 0.7 5.60005 0 6.30005" 
-                  stroke="currentColor" 
-                  strokeWidth="1.5" 
-                  strokeLinecap="round" 
-                  strokeLinejoin="round"
-                />
-                <path 
-                  d="M14.5 11.1001C15.3 12.0001 16.5 12.6001 17.8 12.9001C19 13.2001 20.4 13.2001 21.7 12.9001C23 12.6001 24.2 12.0001 25 11.1001" 
-                  stroke="currentColor" 
-                  strokeWidth="1.5" 
-                  strokeLinecap="round" 
-                  strokeLinejoin="round"
-                />
-                <path 
-                  d="M21.3 13.4C21.6 14.5 21.9 15.7 21.9 16.9C21.9 18.1 21.7 19.3 21.2 20.3C20.7 21.3 20.1 22.2 19.3 23" 
-                  stroke="currentColor" 
-                  strokeWidth="1.5" 
-                  strokeLinecap="round" 
-                  strokeLinejoin="round"
-                />
-                <path 
-                  d="M19.3 23C18.5 23.8 17.6 24.4 16.5 24.8C15.5 25.2 14.3 25.4 13 25.4C11.7 25.4 10.5 25.2 9.5 24.8C8.5 24.4 7.5 23.8 6.7 23" 
-                  stroke="currentColor" 
-                  strokeWidth="1.5" 
-                  strokeLinecap="round" 
-                  strokeLinejoin="round"
-                />
-                <path 
-                  d="M9 16.5C9.82843 16.5 10.5 15.8284 10.5 15C10.5 14.1716 9.82843 13.5 9 13.5C8.17157 13.5 7.5 14.1716 7.5 15C7.5 15.8284 8.17157 16.5 9 16.5Z" 
-                  fill="currentColor"
-                />
-                <path 
-                  d="M15 16.5C15.8284 16.5 16.5 15.8284 16.5 15C16.5 14.1716 15.8284 13.5 15 13.5C14.1716 13.5 13.5 14.1716 13.5 15C13.5 15.8284 14.1716 16.5 15 16.5Z" 
-                  fill="currentColor"
-                />
+                <path d="M19.05 4.91C17.18 3.03 14.69 2 12.04 2C5.99 2 1.08 6.91 1.08 13C1.08 15.03 1.64 17 2.71 18.71L1 23L5.42 21.31C7.05 22.28 8.94 22.79 10.88 22.79H10.89C16.94 22.79 21.79 17.88 21.79 11.79C21.79 9.15 20.82 6.7 19.05 4.91ZM12.04 20.93C10.31 20.93 8.62 20.45 7.15 19.55L6.8 19.35L4.05 20.3L5.01 17.63L4.79 17.27C3.8 15.73 3.27 13.93 3.27 12.07C3.27 7.94 7.13 4.62 12.04 4.62C14.2 4.62 16.22 5.45 17.69 6.93C19.16 8.41 20.04 10.43 20.04 12.59C20.04 16.73 16.12 20.93 12.04 20.93ZM16.56 14.42C16.31 14.29 15.09 13.7 14.87 13.61C14.64 13.53 14.47 13.49 14.31 13.74C14.14 13.99 13.67 14.55 13.53 14.71C13.39 14.88 13.25 14.9 13 14.77C12.75 14.64 11.97 14.4 11.06 13.59C10.35 12.96 9.89 12.19 9.75 11.94C9.62 11.69 9.74 11.56 9.86 11.44C9.97 11.33 10.11 11.15 10.23 11.01C10.35 10.87 10.39 10.77 10.47 10.6C10.55 10.44 10.51 10.3 10.45 10.17C10.39 10.04 9.89 8.82 9.69 8.32C9.5 7.82 9.3 7.9 9.15 7.9C9 7.9 8.84 7.9 8.67 7.9C8.5 7.9 8.24 7.97 8.02 8.21C7.8 8.46 7.16 9.05 7.16 10.27C7.16 11.49 8.07 12.67 8.19 12.83C8.31 13 9.89 15.4 12.25 16.46C12.84 16.72 13.3 16.88 13.66 16.99C14.25 17.19 14.79 17.16 15.22 17.1C15.7 17.03 16.69 16.5 16.89 15.91C17.09 15.32 17.09 14.83 17.03 14.71C16.97 14.6 16.81 14.54 16.56 14.42Z"/>
               </svg>
               Fale Conosco no WhatsApp
             </a>
@@ -115,7 +80,7 @@ const Hero = () => {
             <div>
               <h3 className="text-lg font-semibold mb-2">Educação Crítica para o Mundo Digital</h3>
               <p className="text-muted-foreground">
-                Nosso chatbot foi desenvolvido para capacitar estudantes a analisar criticamente 
+                Nosso chatbot <span className="font-medium text-primary">Zap Crítico</span> foi desenvolvido para capacitar estudantes a analisar criticamente 
                 informações online, identificar fake news e desenvolver autonomia no ambiente digital.
               </p>
             </div>
