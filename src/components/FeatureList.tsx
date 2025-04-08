@@ -3,8 +3,8 @@ import React from 'react';
 
 const features = [
   {
-    title: "Análise de links e notícias em tempo real",
-    description: "Verifique a credibilidade de qualquer conteúdo online instantaneamente, com análises detalhadas e contextualização.",
+    title: "Análise do conteúdo de links e notícias",
+    description: "Converse e reflita sobre qualquer matéria que encontrar na internet, afie seu pensamento crítico!",
     icon: (
       <svg 
         width="24" 
@@ -43,24 +43,6 @@ const features = [
         <polyline points="21 12 16.5 14.6 16.5 19.79"></polyline>
         <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
         <line x1="12" y1="22.08" x2="12" y2="12"></line>
-      </svg>
-    )
-  },
-  {
-    title: "Identificação de padrões de deepfakes",
-    description: "Aprenda a reconhecer sinais de manipulação digital e técnicas utilizadas na criação de conteúdos falsos.",
-    icon: (
-      <svg 
-        width="24" 
-        height="24" 
-        viewBox="0 0 24 24" 
-        fill="none" 
-        stroke="currentColor" 
-        strokeWidth="2" 
-        strokeLinecap="round" 
-        strokeLinejoin="round"
-      >
-        <path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"></path>
       </svg>
     )
   },
@@ -116,12 +98,12 @@ const FeatureList = () => {
           </span>
           <h2 className="heading-lg mb-4 opacity-0 animate-fade-in animate-delay-100">Funcionalidades do Chatbot</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in animate-delay-200">
-            Nossa plataforma foi desenvolvida com recursos específicos para ajudar estudantes a desenvolver 
+            Este produto educacional foi desenvolvido com recursos específicos para ajudar estudantes a desenvolver 
             habilidades críticas essenciais para o ambiente digital.
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6">
           {features.map((feature, index) => (
             <div 
               key={index}

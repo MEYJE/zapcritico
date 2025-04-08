@@ -13,7 +13,7 @@ const WhySection = () => {
           </span>
           <h2 className="heading-lg mb-4 opacity-0 animate-fade-in animate-delay-100">Por que um chatbot?</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in animate-delay-200">
-            Utilizamos a tecnologia para tornar a educação crítica mais acessível e envolvente, 
+            Utilizou-se da tecnologia para tornar a educação crítica mais acessível e envolvente, 
             integrando-a perfeitamente na plataforma que os estudantes já utilizam diariamente.
           </p>
         </div>
@@ -38,7 +38,7 @@ const WhySection = () => {
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Acessibilidade via WhatsApp</h3>
                 <p className="text-muted-foreground">
-                  Integramos nossa solução ao WhatsApp, eliminando barreiras de acesso e 
+                  Solução integrada ao WhatsApp, eliminando barreiras de acesso e 
                   permitindo que os estudantes utilizem uma plataforma que já é familiar.
                 </p>
               </div>
@@ -85,7 +85,7 @@ const WhySection = () => {
                 </div>
                 <h3 className="text-xl font-semibold mb-2">Aprendizado Contextualizado</h3>
                 <p className="text-muted-foreground">
-                  Baseado na pedagogia de Paulo Freire, nosso chatbot promove o diálogo e 
+                  Baseado na pedagogia de Paulo Freire, este chatbot promove o diálogo e 
                   a reflexão crítica a partir da realidade digital dos estudantes.
                 </p>
               </div>
@@ -101,14 +101,14 @@ const WhySection = () => {
                       CE
                     </div>
                     <div>
-                      <h4 className="font-medium">ChatEducacional</h4>
+                      <h4 className="font-medium">ZapCrítico</h4>
                       <p className="text-xs text-muted-foreground">Online agora</p>
                     </div>
                   </div>
                   
                   <div className="space-y-3">
                     <div className="bg-primary/10 text-foreground p-3 rounded-lg rounded-tl-none max-w-[80%]">
-                      Olá! Sou o ChatEducacional. Como posso te ajudar hoje?
+                      Olá! Sou o ZapCrítico. Como posso te ajudar hoje?
                     </div>
                     
                     <div className="bg-primary/10 text-foreground p-3 rounded-lg rounded-tl-none max-w-[80%]">
@@ -120,7 +120,7 @@ const WhySection = () => {
                     </div>
                     
                     <div className="bg-primary/10 text-foreground p-3 rounded-lg rounded-tl-none max-w-[80%] animate-pulse-soft">
-                      Claro! Envie o link da notícia e farei uma análise detalhada para você.
+                      Claro! Envie o link da notícia e farei uma análise para refletirmos juntos.
                     </div>
                   </div>
                 </div>
