@@ -58,9 +58,6 @@ const Navbar = () => {
               <div className="p-6 border-b">
                 <div className="flex items-center justify-between">
                   <img src="../images/Zap Crítico.svg" alt="Logo zap critico" className="w-24 h-14" />
-                  <SheetTrigger>
-                    <X className="h-6 w-6" />
-                  </SheetTrigger>
                 </div>
               </div>
               <nav className="flex flex-col p-6 space-y-6">
