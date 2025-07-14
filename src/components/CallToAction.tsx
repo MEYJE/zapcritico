@@ -26,7 +26,7 @@ const CallToAction = () => {
           </p>
           <div className="opacity-0 animate-fade-in animate-delay-300">
             <a
-              href="https://wa.me/554797952490?text=Quero%20saber%20mais%20sobre%20o%20chatbot%20educacional!"
+              href="https://wa.me/556199544011?text=Quero%20saber%20mais%20sobre%20o%20chatbot%20educacional!"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-primary hover:bg-primary/90 text-white font-medium py-4 px-8 rounded-lg transition-all duration-300 shadow-sm"

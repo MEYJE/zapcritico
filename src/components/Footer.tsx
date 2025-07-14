@@ -62,7 +62,7 @@ const Footer = () => {
               <ul className="space-y-2">
                 <li>
                   <a
-                    href="https://wa.me/554797952490?text=Quero%20saber%20mais%20sobre%20o%20chatbot%20educacional!"
+                    href="https://wa.me/556199544011?text=Quero%20saber%20mais%20sobre%20o%20chatbot%20educacional!"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-sm text-muted-foreground hover:text-primary transition-colors flex items-center gap-2"
