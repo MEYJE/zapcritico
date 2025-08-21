@@ -113,7 +113,7 @@ const Footer = () => {
               href="https://mage.technology"
               className="text-sm text-muted-foreground hover:text-primary transition-colors mx-3"
             >
-              Feito em parceria com Mage Technology
+              Feito em parceria com alunos da EPT
             </a>
             {/* <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors mx-3">
               Termos de Uso

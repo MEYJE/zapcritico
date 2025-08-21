@@ -110,15 +110,15 @@ const WhySection = () => {
                     </div>
                     
                     <div className="bg-primary/10 text-foreground p-3 rounded-lg rounded-tl-none max-w-[80%]">
-                      Posso analisar links, identificar possíveis fake news ou responder dúvidas sobre segurança digital!
+                      Posso analisar links, fazer perguntas reflexivas e ajudar você a desenvolver seu pensamento crítico sobre notícias e segurança digital!
                     </div>
                     
                     <div className="bg-gray-100 text-foreground p-3 rounded-lg rounded-tr-none max-w-[80%] ml-auto">
-                      Preciso verificar se esta notícia é verdadeira. Você pode me ajudar?
+                      Preciso analisar esta notícia criticamente. Você pode me ajudar?
                     </div>
                     
                     <div className="bg-primary/10 text-foreground p-3 rounded-lg rounded-tl-none max-w-[80%] animate-pulse-soft">
-                      Claro! Envie o link da notícia e farei uma análise para refletirmos juntos.
+                      Claro! Envie o link da notícia e farei perguntas para ajudá-lo a refletir sobre o conteúdo.
                     </div>
                   </div>
                 </div>
