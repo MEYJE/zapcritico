@@ -32,7 +32,7 @@ const Navbar = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
-          <a href="#why" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
+          <a href="#porque-um-chatbot" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
             Por que um chatbot?
           </a>
           <a href="#features" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
@@ -61,7 +61,7 @@ const Navbar = () => {
                 </div>
               </div>
               <nav className="flex flex-col p-6 space-y-6">
-                <a href="#why" className="text-base font-medium text-foreground hover:text-primary transition-colors">
+                <a href="#porque-um-chatbot" className="text-base font-medium text-foreground hover:text-primary transition-colors">
                   Por que um chatbot?
                 </a>
                 <a href="#features" className="text-base font-medium text-foreground hover:text-primary transition-colors">

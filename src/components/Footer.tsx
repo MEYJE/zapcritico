@@ -40,7 +40,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#why"
+                    href="#porque-um-chatbot"
                     className="text-sm text-muted-foreground hover:text-foreground transition-colors"
                   >
                     Por que um chatbot?

@@ -3,7 +3,7 @@ import React from 'react';
 
 const WhySection = () => {
   return (
-    <section id="why" className="section-padding bg-secondary/50 relative overflow-hidden">
+    <section id="porque-um-chatbot" className="section-padding bg-secondary/50 relative overflow-hidden">
       <div className="absolute -top-40 -right-40 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
       
       <div className="container-custom">
