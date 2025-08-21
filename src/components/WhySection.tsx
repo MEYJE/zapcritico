@@ -8,9 +8,7 @@ const WhySection = () => {
       
       <div className="container-custom">
         <div className="text-center mb-16">
-          <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium mb-4 opacity-0 animate-fade-in">
-            Abordagem Inovadora
-          </span>
+
           <h2 className="heading-lg mb-4 opacity-0 animate-fade-in animate-delay-100">Por que um chatbot?</h2>
           <p className="text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in animate-delay-200">
             Utilizou-se da tecnologia para tornar a educação crítica mais acessível e envolvente, 

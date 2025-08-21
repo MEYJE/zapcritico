@@ -9,19 +9,19 @@ const CallToAction = () => {
 
       <div className="container-custom relative">
         <div className="max-w-3xl mx-auto text-center">
-          <Badge
+          {/* <Badge
             variant="outline"
             className="inline-block px-3 py-1 bg-primary/10 text-primary border-primary/20 text-sm font-medium mb-6 opacity-0 animate-fade-in"
           >
-            Comece Agora
-          </Badge>
+            Acesso ao Chatbot
+          </Badge> */}
           
           <h2 className="heading-lg mb-6 opacity-0 animate-fade-in animate-delay-100">
-            Transforme sua experiência digital com o{" "}
+            Conheça o{" "}
             <span className="ifb-gradient-text">Zap Crítico</span>
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground mb-8 opacity-0 animate-fade-in animate-delay-200">
-            Experimente agora mesmo o chatbot no WhatsApp e comece a desenvolver
+            Acesse o chatbot no WhatsApp e desenvolva
             habilidades críticas para navegar com segurança no mundo digital.
           </p>
           <div className="opacity-0 animate-fade-in animate-delay-300">
@@ -64,15 +64,11 @@ const CallToAction = () => {
             </div>
             <div>
               <h3 className="text-xl font-semibold mb-2">
-                Projeto de Mestrado do professor Marcos Gomes
+              De onde veio o Zap Crítico?
               </h3>
               <p className="text-muted-foreground">
                 O <span className="font-medium text-primary">Zap Crítico</span>{" "}
-                foi criado como um produto educacional do programa de mestrado
-                do Instituto Federal de Brasília (IFB), focando em alunos do EJA
-                e Educação Profissional e Tecnológica oferecendo recursos que
-                promovem o desenvolvimento do pensamento crítico na
-                cibercultura.
+                é um produto educacional desenvolvido como parte da pesquisa de <strong>mestrado</strong> intitulada <strong>“A Educação Profissional e Tecnológica na Cibercultura: uma análise crítica sob a perspectiva freireana e os desafios da desinformação”</strong>, realizada no Instituto Federal de Educação, Ciência e Tecnologia de Brasília – Campus Brasília/DF, no âmbito do Programa de Pós-Graduação em Educação Profissional e Tecnológica (ProfEPT).
               </p>
             </div>
           </div>

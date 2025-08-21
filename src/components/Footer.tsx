@@ -80,7 +80,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="mailto:marcos.araujo1@ifg.edu.br"
+                    href="mailto:marcos.gomes01@gmail.com"
                     className="text-sm text-muted-foreground hover:text-primary transition-colors flex items-center gap-2"
                   >
                     <svg
@@ -95,7 +95,7 @@ const Footer = () => {
                       <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
                       <polyline points="22,6 12,13 2,6"></polyline>
                     </svg>
-                    Email: marcos.araujo1@ifg.edu.br
+                    Email: marcos.gomes01@gmail.com
                   </a>
                 </li>
               </ul>
@@ -105,7 +105,7 @@ const Footer = () => {
 
         <div className="border-t border-border mt-12 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground">
-            © {currentYear} Zap Crítico. Todos os direitos reservados.
+            © {currentYear} Zap Crítico. 
           </p>
 
           <div className="flex items-center mt-4 md:mt-0">
